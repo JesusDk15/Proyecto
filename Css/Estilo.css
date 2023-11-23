@@ -40,7 +40,7 @@ h2 {
 
 .slider-frame img {
 	width: 100%;
-	object-fit: cover; /* Ajusta la imagen para cubrir el contenedor manteniendo la proporción */
+	object-fit: cover; 
 }
 
 
@@ -138,12 +138,41 @@ h2 {
   top: 930px;
 }
 
-p{
+h3{
 	font-family: cursive;
-	font-weight: 450px;
+	font-weight: 1000px;
 	color: black;
 }
 
+.Documentos{
+  position:absolute;
+  left:44%;
+  top: 1500px;
+}
+
+.LaSabana{
+	position:absolute;
+  left:12%;
+  top: 785px;
+  width: 300px;
+  height: 200px;
+}
+
+.UNAM{
+	position:absolute;
+  left:33.5%;
+  top: 785px;
+  width: 350px;
+  height: 200px;
+}
+
+.SCIELO{
+	position:absolute;
+  left:58%;
+  top: 785px;
+  width: 350px;
+  height: 200px;
+}
 .Audio{
   position:absolute;
   left:48%;
@@ -159,7 +188,8 @@ p{
 
 footer{
 	position: absolute;
-	top: 1500px;
+	top: 1800px;
+	width: 1864px;
 }
 
 #mapDiv{
@@ -176,7 +206,7 @@ footer{
     color: darkblue;
 } 
 
-
+/*Formulario*/
 .form-register {
   width: 400px;
   background: #24303c;
@@ -243,3 +273,234 @@ footer{
 		position: relative;
 		
 	  }
+
+/*SobreN*/
+/*Alan*/
+.card1 {
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+    top: 250px;
+    left: 500px;
+}
+
+.card1 .content {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;  
+    text-align: center;  
+    padding: 20px;
+    background: #fff;
+}
+
+.card1 .content .img {
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.card1 .content .img img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card1 .content span {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, black, blue);
+    transform: rotate(-35deg);
+    top: -50px;
+    left: -100px;
+}
+
+.card1 .content h4 {
+    font-size: 18px;
+    color: #1a1919;
+    margin-bottom: 5px;
+}
+
+.card1 .content h6 {
+    font-size: 13px;
+    color: #5e2066;
+}
+
+.card1 .content p {
+    font-size: 13px;
+    color: #1a161f;
+    margin-top: 10px;
+}
+
+.card1 .links {
+    position: absolute;
+    z-index: 90;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    padding: 20px;
+    align-items: center;
+    right: 10px;
+    top: 15px;
+    transition: .5s;
+}
+
+.card1:hover .links {
+    right: -90px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.card1 .links a {
+    font-size: 20px;
+    color: #646069;
+}
+
+.card1 .links a:nth-child(1):hover {
+    color: #0158ca;
+}
+
+.card1 .links a:nth-child(2):hover {
+    color: #1C93E4;
+}
+
+.card1 .links a:nth-child(3):hover {
+    color: #5D277D;
+}
+
+.card1 .links a:nth-child(4):hover {
+    color: #FE0000;
+}
+
+/*Jesus*/
+.card2 {
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+    top: 250px;
+    left: 1000px;
+}
+
+.card2 .content {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;  
+    text-align: center;  
+    padding: 20px;
+    background: #fff;
+}
+
+.card2 .content .img {
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.card2 .content .img img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card2 .content span {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, black, red);
+    transform: rotate(-35deg);
+    top: -50px;
+    left: -100px;
+}
+
+.card2 .content h4 {
+    font-size: 18px;
+    color: #1a1919;
+    margin-bottom: 5px;
+}
+
+.card2 .content h6 {
+    font-size: 13px;
+    color: #5e2066;
+}
+
+.card2 .content p {
+    font-size: 13px;
+    color: #1a161f;
+    margin-top: 10px;
+}
+
+.card2 .links {
+    position: absolute;
+    z-index: 90;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    padding: 20px;
+    align-items: center;
+    right: 10px;
+    top: 15px;
+    transition: .5s;
+}
+
+.card2:hover .links {
+    right: -90px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.card2 .links a {
+    font-size: 20px;
+    color: #646069;
+}
+
+.card2 .links a:nth-child(1):hover {
+    color: #0158ca;
+}
+
+.card2 .links a:nth-child(2):hover {
+    color: #1C93E4;
+}
+
+.card2 .links a:nth-child(3):hover {
+    color: #5D277D;
+}
+
+.card .links a:nth-child(4):hover {
+    color: #FE0000;
+}
+
+.Iconos{
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		margin-bottom: -20px;
+		margin-top: 2px;
+		margin-left: 10px;
+		margin-right: -40px;
+	}
